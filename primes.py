@@ -1,5 +1,6 @@
 import math
 
+
 def is_prime(num):
     if num < 2:
         return False
@@ -7,6 +8,7 @@ def is_prime(num):
         if num % n == 0:
             return False
     return True
+
 
 def sum_of_primes(nums):
     return sum([x for x in nums if is_prime(x)])
