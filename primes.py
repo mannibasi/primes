@@ -1,3 +1,3 @@
 def is_prime(num):
-    if num == 1:
+    if num < 2:
         return False
