@@ -7,7 +7,6 @@ python -m venv env
 
 pip install --upgrade pip
 pip install pytest
-pip install coverage
 pip install pytest-cov
 ```
 ```
