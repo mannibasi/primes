@@ -11,3 +11,6 @@ def test_prime_composite_number():
 
 def test_sum_of_primes_empty_list():
     assert sum_of_primes([]) == 0
+
+def test_sum_of_primes_mixed_list():
+    assert sum_of_primes([11, 15, 17, 18, 20, 100]) == 28
