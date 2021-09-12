@@ -1,5 +1,5 @@
-# primes
-Calculates the Sum of Prime Numbers (pytest example)
+# Sum of Primes calculator
+## Developed with [pytest](https://docs.pytest.org/en/latest/), a mature full-featured Python testing framework
 
 ```
 python -m venv env
@@ -10,7 +10,6 @@ pip install pytest
 pip install coverage
 pip install pytest-cov
 ```
-
 ```
 pytest
 pytest --cov=primes
