@@ -9,4 +9,4 @@ def is_prime(num):
     return True
 
 def sum_of_primes(nums):
-    return sum(nums)
+    return sum([x for x in nums if is_prime(x)])
